@@ -59,7 +59,7 @@ class MovieDeleteView(LoginRequiredMixin, DeleteView):
     success_url = reverse_lazy("movie_site:movie_top")
 
     def delete(self, request, *args, **kwargs):
-        messages.success(self.request, "動画を削除しました。")
+        messages.error(self.request, "動画を削除しました。")
         return super().delete(request, *args, **kwargs)
 
 
