@@ -1,0 +1,14 @@
+{% extends "base.html" %} {% block content %}
+<div class="container text-center">
+    <h1>コンテンツを削除</h1>
+    <p class="text text-danger">コンテンツを削除しますが、よろしいでしょう？</p>
+
+    <form method="POST">
+        {% csrf_token %}
+        {{form}}
+
+        <button type="submit" class="btn btn-danger">削除</button>
+        <a href="{% url 'movie_site:movie_detail' movie.pk %}" class="btn btn-default">キャンセル</a>
+    </form>
+</div>
+{% endblock %}

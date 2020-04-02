@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% load static  %}
+{% block content %}
+    <div class="container text-center" style="margin-top:1rem;">
+            {% for movie in movie_list %}
+
+            {% if movie.samune %}
+            <a href="{% url 'movie_site:movie_detail' movie.pk %}">
+                <img class="rounded mx-auto d-block" src="{{ movie.samune.url }}" alt="" allowfullscreen>
+            </a>
+            {% else %}
+            <a href="{% url 'movie_site:movie_detail' movie.pk %}">
+                <img class="rounded mx-auto d-block" src="{% static 'img/images.png' %}" alt="" allowfullscreen>
+            </a>
+            {% endif %}
+
+            <a class="btn btn-link" href="{% url 'movie_site:movie_detail' movie.pk %}">
+                {{movie.title}}
+            </a>
+            <hr class="border">
+            {% endfor %}
+        {% include "pagination.html" %}
+    </div>
+{% endblock %}
