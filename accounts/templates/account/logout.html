@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="container text-center" style="margin-top:1rem;">
+    <div class="my-div-style">
+        <h1>ログアウト</h1>
+        <p>ログアウトしますがよろしいでしょうか？</p>
+        <form method="POST" action="{% url 'account_logout' %}">
+            {% csrf_token %}
+            {% if redirect_field_value %}
+            <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
+            {% endif %}
+            <button class="btn btn-danger" type="submit">ログアウト</button>
+        </form>
+    </div>
+
+</div>
+{% endblock %}

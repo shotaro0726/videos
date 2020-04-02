@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="container text-center" style="margin-top:1rem;">
+    <div class="my-div-style">
+        <h1>無料で参加する</h1>
+        <form method="POST" action="{% url 'account_signup' %}">
+            {% csrf_token %}
+            {{ form.as_p }}
+            {% if redirect_field_value %}
+            <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" /> {% endif %}
+            <button class="btn btn-primary " type="submit">登録</button>
+        </form>
+    </div>
+</div>
+{% endblock %}
