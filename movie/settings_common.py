@@ -134,6 +134,13 @@ STATICFILES_DIRS = (
 
 MEDIA_URL = '/media/'
 
+MESSAGE_TAGS = {
+    messages.SUCCESS: 'alert alert-success',
+    messages.WARNING: 'alert alert-warning',
+    messages.ERROR: 'alert alert-error',
+    messages.INFO: 'alert alert-info',
+}
+
 
 AUTH_USER_MODEL = 'accounts.CustomUser'
 SITE_ID = 1
@@ -148,10 +155,6 @@ ACCOUNT_EMAIL_VERIFICATION = 'mandatory'
 ACCOUNT_EMAIL_REQUIRED = True
 
 LOGIN_REDIRECT_URL = 'movie_site:movie_top'
+ACCOUNT_LOGOUT_REDIRECT_URL = 'moviw_site:movie_top'
 
-MESSAGE_TAGS = {
-    messages.SUCCESS: 'alert alert-success',
-    messages.WARNING: 'alert alert-warning',
-    messages.ERROR: 'alert alert-error',
-    messages.INFO: 'alert alert-info',
-}
+ACCOUNT_LOGOUT_ON_GET = True

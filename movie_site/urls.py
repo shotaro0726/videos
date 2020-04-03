@@ -1,7 +1,6 @@
 from django.urls import path
 from .views import MovieTopListView, MovieDetailView, MovieFormView, MovieUpdateView, MovieDeleteView, MovieCommentView, \
     MovieSearchView, MovieUserPageView
-from django.conf.urls.static import static
 from django.conf import settings
 
 app_name = 'movie_site'
@@ -17,4 +16,4 @@ urlpatterns = [
     path('user_page/',MovieUserPageView.as_view(),name='movie_user'),
 ]
 
-urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+

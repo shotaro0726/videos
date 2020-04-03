@@ -1,4 +1,4 @@
-from movie.settings_common import *
+from .settings_common import *
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -36,3 +36,5 @@ Logging = {
         },
     }
 }
+
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
