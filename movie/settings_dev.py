@@ -1,4 +1,4 @@
-from movie.setthings_common import *
+from movie.settings_common import *
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
