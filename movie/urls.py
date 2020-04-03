@@ -25,4 +25,4 @@ urlpatterns = [
     path('accounts/', include('allauth.urls')),
 ]
 
-urlpatterns += static(settings_common.MEDIA_UR,document_root=settings_dev.MEDIA_ROOT)
+urlpatterns += static(settings_common.MEDIA_URL,document_root=settings_dev.MEDIA_ROOT)
