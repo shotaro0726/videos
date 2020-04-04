@@ -4,8 +4,8 @@ DEBUG = False
 
 ALLOWED_HOSTS = [os.environ.get('ALLOWED_HOSTS')]
 
-STATIC_URL = '/usr/share/nginx/html/static'
-MEDIA_URL = '/usr/share/nginx/html/media'
+STATIC_URL = '/usr/share/nginx/html/static/'
+MEDIA_URL = '/usr/share/nginx/html/media/'
 
 AWS_SES_ACCESS_KEY_ID = os.environ.get('AWS_SES_ACCESS_KEY_ID')
 AES_SES_SECRET_ACCESS_KEY = os.environ.get('AWS_SES_SECRET_ACCESS_KEY')
