@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="837ffc18-03a7-43b5-b77b-e8eef02fbef4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie/settings_common.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie/settings_dev.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie/settings/settings_common.py" beforeDir="false" afterPath="$PROJECT_DIR$/movie/settings/settings_common.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movie/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/movie/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,5 +43,16 @@
       <screen x="0" y="23" width="1366" height="676" />
     </state>
     <state x="244" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1366.676@0.23.1366.676" timestamp="1585832177063" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/movie/settings/settings_common.py</url>
+          <line>136</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
