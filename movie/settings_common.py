@@ -123,15 +123,6 @@ USE_L10N = True
 USE_TZ = True
 
 
-# Static files (CSS, JavaScript, Images)
-# https://docs.djangoproject.com/en/3.0/howto/static-files/
-
-STATIC_URL = '/static/'
-
-STATIC_ROOT = os.path.join(BASE_DIR, "static/")
-
-MEDIA_URL = '/media/'
-
 MESSAGE_TAGS = {
     messages.SUCCESS: 'alert alert-success',
     messages.WARNING: 'alert alert-warning',
@@ -153,6 +144,6 @@ ACCOUNT_EMAIL_VERIFICATION = 'mandatory'
 ACCOUNT_EMAIL_REQUIRED = True
 
 LOGIN_REDIRECT_URL = 'movie_site:movie_top'
-ACCOUNT_LOGOUT_REDIRECT_URL = 'moviw_site:movie_top'
+ACCOUNT_LOGOUT_REDIRECT_URL = 'movie_site:movie_top'
 
 ACCOUNT_LOGOUT_ON_GET = True

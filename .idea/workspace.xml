@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="837ffc18-03a7-43b5-b77b-e8eef02fbef4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/rSettings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie/settings/settings_common.py" beforeDir="false" afterPath="$PROJECT_DIR$/movie/settings/settings_common.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/movie/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie/settings_common.py" beforeDir="false" afterPath="$PROJECT_DIR$/movie/settings_common.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie/settings_dev.py" beforeDir="false" afterPath="$PROJECT_DIR$/movie/settings_dev.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/movie/wsgi.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +26,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/movie_site" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -39,20 +49,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="244" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585832177063">
-      <screen x="0" y="23" width="1366" height="676" />
+    <state x="244" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586060943353">
+      <screen x="0" y="23" width="1366" height="678" />
     </state>
     <state x="244" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1366.676@0.23.1366.676" timestamp="1585832177063" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/movie/settings/settings_common.py</url>
-          <line>136</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="244" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1366.678@0.23.1366.678" timestamp="1586060943353" />
   </component>
 </project>
