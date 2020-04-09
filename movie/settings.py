@@ -50,7 +50,7 @@ Logging = {
     }
 }
 
-#manage.pyと同じ階層の場合
-STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'static')
-]
+
+
+
+
